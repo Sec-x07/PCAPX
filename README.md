@@ -1,9 +1,9 @@
-# 🧠 PCAPX  
+#  PCAPX  
 ### Interactive Terminal-Based Packet Capture Tool for Linux
 
 ---
 
-## 📌 Introduction
+## Introduction
 
 **PCAPX** is a lightweight, terminal-based packet capturing and analysis tool designed specifically for Linux users who prefer **speed, simplicity, and control** over heavy graphical interfaces.
 
@@ -17,7 +17,7 @@ PCAPX is built with a **learning-first and usability-first mindset**, making it 
 
 ---
 
-## ❓ Why PCAPX?
+##  Why PCAPX?
 
 While tools like Wireshark are extremely powerful, they also come with drawbacks:
 
@@ -37,7 +37,7 @@ While tools like Wireshark are extremely powerful, they also come with drawbacks
 
 ---
 
-## ✨ Features Breakdown
+##  Features Breakdown
 
 ### 🔹 Live Packet Capture
 - Real-time packet capturing using `tshark`
@@ -91,7 +91,24 @@ The `.pcap` file always contains **all traffic**.
 
 ---
 
-## ⌨️ Interactive Commands
+##  Installation Guide
+
+Follow the steps below to install and set up **PCAPX** on a Linux system.
+
+###  Clone the Repository
+```bash
+git clone https://github.com/Sec-x07/PCAPX.git
+cd PCAPX
+```
+### Installation 
+``` bash
+chmod +x install.py
+````
+### Running the Tool 
+``` bash
+sudo python3 capture.py
+```
+##  Interactive Commands
 
 You can type commands **while capture is running**:
 
